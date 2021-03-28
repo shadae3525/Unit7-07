@@ -6,13 +6,13 @@ let counter = 0
 let answer = 0
 
 function calculate () {
-  firstNum = document.getElementById('first').value 
+  firstNum = document.getElementById('first').value
   secondNum = document.getElementById('second').value
   firstNum = parseInt(firstNum)
   secondNum = parseInt(secondNum)
 
   for (counter = 0; counter < firstNum; counter++) {
-  answer = answer + secondNum  
+      answer = answer + secondNum
   }
   document.getElementById('answer').innerHTML = answer
 }
